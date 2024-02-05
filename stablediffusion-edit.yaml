@@ -1,0 +1,10 @@
+name: stablediffusion-edit
+parameters:
+  model: nitrosocke/Ghibli-Diffusion
+backend: diffusers
+step: 25
+cuda: true
+f16: true
+diffusers:
+  pipeline_type: StableDiffusionImg2ImgPipeline
+  enable_parameters: "negative_prompt,num_inference_steps,image"
