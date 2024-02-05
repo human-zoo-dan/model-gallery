@@ -13,6 +13,14 @@
 - url: github:human-zoo-dan/model-gallery/stablediffusion.yaml
   name: stablediffusion
   license: other
+## stablediffusion-edit
+- url: github:human-zoo-dan/model-gallery/stablediffusion-edit.yaml
+  name: stablediffusion-edit
+  license: other
+## animagine-xl
+- url: github:human-zoo-dan/model-gallery/animagine-xl.yaml
+  name: animagine-xl
+  license: other
 ## Tiny Dream
 - url: github:human-zoo-dan/model-gallery/tinydream.yaml
   name: tinydream
