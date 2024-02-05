@@ -11,7 +11,9 @@ config_file: |
   backend: tinydream
   parameters:
     model: tinydream_assets
-
+  cuda: true
+  f16: true
+  
 files:
   - filename: "tinydream_assets/AutoencoderKL-fp16.bin"
     sha256: "f02e71f80e70252734724bbfaed5c4ddd3a8ed7e61bb2175ff5f53099f0e35dd"
