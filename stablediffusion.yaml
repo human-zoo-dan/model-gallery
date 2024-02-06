@@ -13,6 +13,7 @@ config_file: |
   f16: true
   parameters:
     model: stablediffusion_assets
+    cuda: true
 
 files:
 - filename: "stablediffusion_assets/AutoencoderKL-256-256-fp16-opt.param"
