@@ -8,12 +8,13 @@ description: |
      Stable Diffusion in NCNN with c++, supported txt2img and img2img 
 config_file: |
   name: stablediffusion
+  parameters:
+    model: stablediffusion_assets
   backend: stablediffusion
   cuda: true
   f16: true
-  parameters:
-    model: stablediffusion_assets
-    cuda: true
+  diffusers:
+    scheduler_type: dpm_2_a
 
 files:
 - filename: "stablediffusion_assets/AutoencoderKL-256-256-fp16-opt.param"
