@@ -1,0 +1,14 @@
+name: "dall-e-2"
+
+description: |
+     Stable Diffusion in NCNN with c++, supported txt2img and img2img 
+config_file: |
+  backend: diffusers
+  cuda: true
+  diffusers:
+    # scheduler_type: dpm_2_a
+    scheduler_type: euler_a
+  f16: true
+  name: dall-e-2
+  parameters:
+    model: dreamlike-art/dreamlike-anime-1.0
