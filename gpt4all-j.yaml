@@ -7,6 +7,7 @@ urls:
 config_file: |
     backend: gpt4all-j
     context_size: 1024
+    threads: 12
     parameters:
       model: ggml-gpt4all-j.bin
       top_k: 80
