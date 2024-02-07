@@ -1,9 +1,18 @@
-backend: diffusers
-cuda: true
-diffusers:
-  # scheduler_type: dpm_2_a
-  scheduler_type: euler_a
-f16: true
-name: stablediffusion
-parameters:
-  model: stabilityai/stable-diffusion-xl-base-1.0
+name: "stablediffusion"
+license: "BSD-3"
+urls:
+- https://github.com/EdVince/Stable-Diffusion-NCNN
+- https://github.com/EdVince/Stable-Diffusion-NCNN/blob/main/LICENSE
+
+description: |
+     Stable Diffusion in NCNN with c++, supported txt2img and img2img 
+config_file: |
+  backend: diffusers
+  cuda: true
+  diffusers:
+    # scheduler_type: dpm_2_a
+    scheduler_type: euler_a
+  f16: true
+  name: stablediffusion
+  parameters:
+    model: stabilityai/stable-diffusion-xl-base-1.0
