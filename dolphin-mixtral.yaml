@@ -8,11 +8,12 @@ urls:
 - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF
 
 config_file: |
-  name: mistral
-  context_size: 4096
+  name: mixtral
+  context_size: 8192
   f16: true
   mmap: true
-  threads: 4
+  gpu_layers: 35
+  threads: 16
   parameters:
     model: dolphin-2.7-mixtral-8x7b.Q4_K_M.gguf
     temperature: 0.2
